@@ -1,0 +1,328 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #040e1e;
+  border: 0.5px solid #00c8ff;
+  width: 100%;
+  border-radius: 10px;
+  align-items: center;
+  padding-right: 5px;
+  box-shadow: 0px 0px 10px 1px #00c8ff;
+}
+header img {
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+  padding-left: 10px;
+  box-shadow: 0px 0px 10px 1px #00c8ff;
+}
+nav {
+  display: flex;
+  gap: 30px;
+  font-weight: 500;
+}
+nav a {
+  color: white;
+  font-weight: 500px;
+  text-decoration-line: none;
+}
+nav a:hover {
+  color: #00c8ff;
+  text-decoration-line: underline;
+  text-shadow: 0px 0px 10px #00c8ff;
+}
+button {
+  color: white;
+
+  background-color: #00c8ff;
+  border-radius: 10px;
+  padding: 10px;
+  border: 0px;
+  font-weight: 500;
+  box-shadow: 0px 0px 10px 1px #17686c;
+  transition-property: all;
+  transition-duration: 0.1s;
+  transition-delay: 0s;
+}
+button:hover {
+  background-color: #0b2142;
+  color: #00c8ff;
+  text-decoration-line: underline;
+  scale: 1.05;
+  box-shadow: 0px 0px 10px 1px #00c8ff;
+  cursor: pointer;
+}
+body {
+  background-color: rgb(6, 4, 17);
+  color: white;
+  font-family:
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    sans-serif;
+}
+
+/* ===============container1================== */
+.container1 {
+  display: flex;
+  justify-content: space-around;
+  gap: 50px;
+  width: 100%;
+  align-items: center;
+  margin-top: 30px;
+}
+.info {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+}
+.box {
+  border: 1px solid #00c8ff;
+  text-align: center;
+  padding: 2px 10px;
+  border-radius: 10px;
+  background-color: #020b19;
+  font-weight: 900;
+  box-shadow: 0px 0px 10px 1px #17686c;
+  transition-property: all;
+  transition-duration: 0.5s;
+  transition-delay: 0s;
+}
+.box:hover {
+  background-color: rgb(2, 0, 30);
+  scale: 1.05;
+  box-shadow: 0px 0px 10px 1px #00c8ff;
+  cursor: pointer;
+}
+.container1 img {
+  width: 450px;
+  height: 450px;
+  box-shadow: 0px 0px 10px 1px #00c8ff;
+  border-radius: 10px;
+}
+/* ===============container1 end================== */
+
+/* ===============container2================== */
+.container2 {
+  border-radius: 10px;
+  border: 0.5px solid #00c8ff;
+  padding: 5px;
+  margin-top: 40px;
+  box-shadow: 0px 0px 10px 1px #17686c;
+}
+.skillinfo {
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  display: flex;
+  padding: 5px;
+}
+.infobox {
+  border-radius: 10px;
+  border: 0.5px solid #00c8ff;
+  width: 300px;
+  height: 200px;
+  text-align: left;
+  background-color: #020b19;
+  box-shadow: 0px 0px 10px 1px #17686c;
+  transition-property: all;
+  transition-duration: 0.5s;
+  transition-delay: 0s;
+}
+.infobox:hover {
+  scale: 1.05;
+  box-shadow: 0px 0px 10px 1px #00c8ff;
+  cursor: pointer;
+}
+
+.container3 {
+  border-radius: 10px;
+  border: 0.5px solid #00c8ff;
+  padding: 5px;
+  margin-top: 40px;
+  box-shadow: 0px 0px 10px 1px #10474a;
+}
+.program {
+  align-items: center;
+  display: flex;
+  gap: 10px;
+  padding: 5px;
+}
+.program1 {
+  border: 0.5px solid #00c8ff;
+  border-radius: 10px;
+  width: 150px;
+  height: auto;
+  text-align: center;
+  background-color: #020b19;
+  padding: auto;
+  box-shadow: 0px 0px 10px 1px #17686c;
+  transition-property: all;
+  transition-duration: 0.5s;
+  transition-delay: 0s;
+}
+.program1:hover {
+  box-shadow: 0px 0px 10px 1px #00c8ff;
+  scale: 1.05;
+  cursor: pointer;
+}
+/* ===============container2 end================== */
+
+/* ===============footer================== */
+
+.footercontainer {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  justify-content: space-between;
+  padding: 20px;
+  color: white;
+  background-color: #020d1f;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  margin-top: 30px;
+  border-radius: 10px;
+}
+.footerleft {
+  width: 300px;
+}
+.footerleft img {
+  height: 70px;
+  width: 70px;
+  border-radius: 100%;
+}
+
+.footercontainer h3 {
+  text-decoration: underline;
+  text-shadow: 0px 0px 10px #00c8ff;
+  color: #00c8ff;
+}
+.footercontainer h3:hover {
+  scale: 1.05;
+}
+.footercontainer li:hover {
+  text-decoration: underline;
+  text-shadow: 0px 0px 10px #00c8ff;
+  cursor: pointer;
+}
+.centerleft a,
+.centerright a {
+  color: white;
+  text-decoration-line: none;
+}
+
+/* ----------some inline css--------------  */
+#h4 {
+  text-decoration: underline;
+  text-shadow: 0px 0px 10px #0095bf;
+  color: #00c8ff;
+  text-align: center;
+}
+#myskill {
+  padding: 5px;
+  font-weight: 800;
+  text-shadow: 0px 0px 10px #0095bf;
+  color: white;
+}
+#myskill:hover {
+  text-decoration-line: underline;
+}
+#aboutme {
+  font-weight: 900;
+  text-shadow: 0px 0px 10px #0095bf;
+  color: white;
+}
+#p1 {
+  text-shadow: 0px 0px 10px #0095bf;
+  color: #00c8ff;
+  font-weight: 700;
+}
+p {
+  font-weight: 500;
+}
+
+/* ============================================================
+               RESPONSIVE STYLES — everything below is NEW.
+               All desktop rules above are untouched. These only kick in
+               on screens at/below the widths listed, so desktop is safe.
+               ============================================================ */
+
+@media (max-width: 1024px) {
+  .container1 {
+    flex-direction: column;
+    text-align: center;
+  }
+  .container1 img {
+    width: 300px;
+    height: 300px;
+  }
+  .skillinfo {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .infobox {
+    width: 90%;
+    max-width: 320px;
+  }
+}
+
+@media (max-width: 768px) {
+  header {
+    flex-wrap: wrap;
+    padding: 10px;
+  }
+  header img {
+    width: 40px;
+    height: 40px;
+  }
+  nav {
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    order: 3;
+    margin-top: 10px;
+  }
+  button {
+    padding: 8px 14px;
+    font-size: 14px;
+  }
+  .program {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .footercontainer {
+    flex-direction: column;
+    text-align: center;
+    gap: 15px;
+  }
+  .footerleft {
+    width: 100%;
+  }
+}
+
+@media (max-width: 600px) {
+  .info {
+    grid-template-columns: 1fr;
+  }
+  .container1 img {
+    width: 220px;
+    height: 220px;
+  }
+}
+
+@media (max-width: 480px) {
+  nav {
+    gap: 10px;
+  }
+  nav a {
+    font-size: 13px;
+  }
+  .infobox {
+    width: 100%;
+  }
+  .program1 {
+    width: 120px;
+  }
+}
